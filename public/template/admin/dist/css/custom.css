@@ -1,0 +1,98 @@
+.mt-10{
+    margin-top: 10px;
+}
+.custom-table .table th{
+    text-align: center;
+    vertical-align: middle;
+}
+.table-border .table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td{
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid    #ccc;
+    border-top: 1px solid   #ccc;
+
+}
+.table-border .table.table-hover{
+    border: 1px solid   #ccc;
+}
+.table-border .table>tbody+tbody{
+    border-top: 1px solid   #ccc;
+}
+.border-none{
+    border: none;
+}
+
+.paginate .pagination{
+    margin: 0;
+}
+
+.record-show .form-control {
+    width:auto;
+}
+.radio {
+    margin-right: 5px !important;
+    display: inline-block !important;
+}
+
+.radio-button {
+    display: inline-block;
+/ / padding-right: 13 %;
+}
+
+.modal {
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) { 
+  .modal:before {
+    display: inline-block;
+    vertical-align: middle;
+    content: " ";
+    height: 100%;
+  }
+}
+
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+
+#containerTen {
+    display: block; 
+    position:relative
+} 
+.ui-autocomplete {
+  padding: 0px;
+  text-align: left;
+  position: absolute;
+  cursor: pointer;
+  list-style-type: none;
+  background-color: #f2efff;
+  z-index: 100;
+  margin-left: 45px;
+  border-radius: 8px;
+  margin-top: 2px;
+}
+
+.ui-menu-item {
+  margin-bottom: 1px;
+  margin-left: 10px;
+}
+
+.zoom-image {
+    transition: transform .2s; /* Animation */
+    cursor: zoom-in;
+}
+
+.zoom-image:hover {
+    transform: scale(4); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.select2-container--default .select2-selection--single{
+  border: 1px solid #d4d2d2 !important;
+  border-radius: 4px !important; 
+}
+
+.select2-container .select2-selection--single {
+  height: 34px !important;
+}
